@@ -1,0 +1,70 @@
+[2026-04-11T21:53:16Z] === ENRICH ITERATION 1 START | repo=materialsproject/fireworks sha=a2b14e3f ===
+[2026-04-11T21:53:16Z] [iter=1] PHASE START: enrich repo=materialsproject/fireworks sha=a2b14e3f runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/a2b14e3f-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/a2b14e3f731dfcb61cfb43912db9116f062700a9.nq.gz
+[2026-04-11T21:53:21Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-11T21:53:40Z] [iter=1] AST store loaded triples=2338086 load_secs=18 mem_mb=948 MB
+[2026-04-11T21:53:40Z] [iter=1] Step 2: Finding LSP targets mem_mb=948 MB
+[2026-04-11T21:53:43Z] [iter=1] LSP targets found call_sites=15433 imports=502 extends=103 implements=0 secs=3
+[2026-04-11T21:53:45Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=948 MB
+[2026-04-11T21:53:58Z] [iter=1] Position index built positions=156985 nodes_with_types=187573 secs=13 mem_mb=948 MB
+[2026-04-11T21:53:58Z] [iter=1] Step 3: Starting LSP resolution mem_mb=948 MB already_completed_types=[] already_completed_files=0
+[2026-04-11T21:53:58Z] [iter=1] Resolving target type target_type=call_site count=15433
+[2026-04-11T21:53:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=docs/_static/jquery-3.2.1.js
+[2026-04-11T22:17:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.9 files_done=1 resolved=36 errors=1536 current=docs/_static/underscore-1.3.1.js
+[2026-04-11T22:20:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.0 files_done=2 resolved=51 errors=1743 current=fireworks/flask_site/static/js/dagre.js
+[2026-04-11T22:45:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=52.7 files_done=3 resolved=82 errors=3442 current=fireworks/flask_site/static/js/handlebars-v4.0.2.js
+[2026-04-11T22:52:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=59.3 files_done=4 resolved=97 errors=3881 current=fireworks/flask_site/static/js/cytoscape-panzoom.js
+[2026-04-11T22:54:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=61.2 files_done=5 resolved=122 errors=4003 current=docs/_static/jquery.js
+[2026-04-11T23:17:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=84.5 files_done=6 resolved=159 errors=5548 current=docs/_static/jquery-3.1.0.js
+[2026-04-11T23:40:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=107.7 files_done=7 resolved=185 errors=7083 current=docs/_static/language_data.js
+[2026-04-11T23:41:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=108.4 files_done=8 resolved=185 errors=7131 current=docs/_static/websupport.js
+[2026-04-11T23:47:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.4 files_done=9 resolved=203 errors=7528 current=docs/_static/searchtools.js
+[2026-04-11T23:48:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=115.5 files_done=10 resolved=207 errors=7596 current=docs/_static/doctools.js
+[2026-04-11T23:52:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.2 files_done=12 resolved=234 errors=7842 current=fireworks/flask_site/static/js/wf_cyto.js
+[2026-04-11T23:53:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.8 files_done=14 resolved=244 errors=7881 current=docs/_static/documentation_options.js
+[2026-04-11T23:59:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=126.7 files_done=17 resolved=430 errors=8331 current=fireworks/user_objects/queue_adapters/pbs_newt_adapter.py
+[2026-04-12T00:01:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.8 files_done=19 resolved=488 errors=8402 current=fireworks/user_objects/firetasks/tests/test_filepad_tasks.py
+[2026-04-12T00:02:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.3 files_done=20 resolved=541 errors=8504 current=fireworks/user_objects/firetasks/fileio_tasks.py
+[2026-04-12T00:03:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.2 files_done=22 resolved=590 errors=8566 current=fireworks/user_objects/firetasks/filepad_tasks.py
+[2026-04-12T00:04:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.8 files_done=23 resolved=623 errors=8603 current=fireworks/core/rocket.py
+[2026-04-12T00:05:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.4 files_done=24 resolved=683 errors=8711 current=fireworks/utilities/filepad.py
+[2026-04-12T00:06:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=133.5 files_done=25 resolved=694 errors=8778 current=fireworks/core/tests/test_launchpad.py
+[2026-04-12T00:14:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.4 files_done=26 resolved=883 errors=9300 current=fireworks/utilities/fw_utilities.py
+[2026-04-12T00:15:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.9 files_done=27 resolved=934 errors=9335 current=fireworks/utilities/dagflow.py
+[2026-04-12T00:16:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.9 files_done=28 resolved=986 errors=9398 current=fireworks/core/launchpad.py
+[2026-04-12T00:21:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.7 files_done=29 resolved=1100 errors=9785 current=fireworks/user_objects/queue_adapters/tests/test_common_adapter.py
+[2026-04-12T00:22:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.4 files_done=30 resolved=1111 errors=9831 current=fireworks/tests/test_workflow.py
+[2026-04-12T00:23:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.3 files_done=31 resolved=1111 errors=9889 current=fireworks/tests/mongo_tests.py
+[2026-04-12T00:29:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=156.1 files_done=32 resolved=1197 errors=10275 current=fireworks/core/firework.py
+[2026-04-12T00:31:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.6 files_done=33 resolved=1311 errors=10438 current=fireworks/flask_site/app.py
+[2026-04-12T00:33:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=159.9 files_done=34 resolved=1371 errors=10522 current=fireworks/fw_config.py
+[2026-04-12T00:34:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.8 files_done=39 resolved=1439 errors=10578 current=fireworks/core/tests/test_tracker.py
+[2026-04-12T00:34:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=161.5 files_done=40 resolved=1472 errors=10624 current=fireworks/core/tests/tasks.py
+[2026-04-12T00:35:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=162.1 files_done=43 resolved=1493 errors=10666 current=fireworks/features/multi_launcher.py
+[2026-04-12T00:36:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=162.7 files_done=44 resolved=1512 errors=10708 current=fw_tutorials/python/python_examples.py
+[2026-04-12T00:36:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.4 files_done=45 resolved=1516 errors=10751 current=fireworks/utilities/fw_serializers.py
+[2026-04-12T00:37:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.4 files_done=46 resolved=1576 errors=10815 current=fireworks/user_objects/firetasks/dataflow_tasks.py
+[2026-04-12T00:38:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=165.0 files_done=47 resolved=1630 errors=10851 current=fireworks/flask_site/helpers.py
+[2026-04-12T00:39:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.0 files_done=49 resolved=1652 errors=10918 current=fireworks/utilities/tests/test_fw_serializers.py
+[2026-04-12T00:40:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.8 files_done=50 resolved=1675 errors=10970 current=fireworks/user_objects/firetasks/tests/test_dataflow_tasks.py
+[2026-04-12T00:41:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=168.0 files_done=51 resolved=1714 errors=11044 current=fireworks/examples/custom_firetasks/merge_task/merge_task.py
+[2026-04-12T00:42:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=168.7 files_done=53 resolved=1756 errors=11095 current=fireworks/tests/multiprocessing_tests.py
+[2026-04-12T00:42:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=169.4 files_done=54 resolved=1791 errors=11140 current=fireworks/core/fworker.py
+[2026-04-12T00:43:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=170.6 files_done=57 resolved=1831 errors=11214 current=fireworks/scripts/rlaunch_run.py
+[2026-04-12T00:44:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=171.2 files_done=58 resolved=1843 errors=11254 current=fireworks/user_objects/firetasks/tests/test_fileio_tasks.py
+[2026-04-12T00:45:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=172.1 files_done=60 resolved=1883 errors=11317 current=setup.py
+[2026-04-12T00:46:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=172.9 files_done=63 resolved=1931 errors=11368 current=fireworks/user_objects/queue_adapters/common_adapter.py
+[2026-04-12T00:47:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=173.7 files_done=64 resolved=1956 errors=11423 current=docs_rst/conf.py
+[2026-04-12T00:47:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=174.4 files_done=68 resolved=1972 errors=11463 current=fireworks/queue/queue_adapter.py
+[2026-04-12T00:48:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=175.3 files_done=70 resolved=2016 errors=11523 current=fireworks/user_objects/firetasks/tests/test_script_task.py
+[2026-04-12T00:49:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=176.0 files_done=71 resolved=2023 errors=11572 current=fireworks/user_objects/firetasks/unittest_tasks.py
+[2026-04-12T00:50:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=176.7 files_done=75 resolved=2038 errors=11619 current=fireworks/tests/master_tests.py
+[2026-04-12T00:50:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=177.3 files_done=77 resolved=2060 errors=11659 current=fireworks/flask_site/gunicorn.py
+[2026-04-12T00:51:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=177.9 files_done=85 resolved=2090 errors=11698 current=fireworks/examples/custom_firetasks/hello_world/hello_world_run.py
+[2026-04-12T00:51:25Z] [iter=1] Target type resolved target_type=call_site resolved=2095 errors=11712 secs=10647 mem_mb=948 MB
+[2026-04-12T00:51:25Z] [iter=1] Resolving target type target_type=import_statement count=502
+[2026-04-12T00:51:29Z] [iter=1] Target type resolved target_type=import_statement resolved=431 errors=0 secs=4 mem_mb=948 MB
+[2026-04-12T00:51:29Z] [iter=1] Resolving target type target_type=extends_clause count=103
+[2026-04-12T00:51:31Z] [iter=1] Target type resolved target_type=extends_clause resolved=101 errors=0 secs=2 mem_mb=948 MB
+[2026-04-12T00:51:42Z] [iter=1] Step 5: Writing final enrichment file triples=155959
+[2026-04-12T00:51:45Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/a2b14e3f731dfcb61cfb43912db9116f062700a9.nq.gz size_kb=3149
+[2026-04-12T00:51:45Z] [iter=1] PHASE END: enrich elapsed_s=10709 elapsed_min=178.5 total_triples=155959
