@@ -1,5 +1,21 @@
 {
   "org": "materialsproject",
   "repo": "fireworks",
-  "versions": []
+  "versions": [
+    {
+      "commit": "7897db27c0dbb9769c3a57169f8722507e2878dc",
+      "tag": "v2.0.2",
+      "parsed_at": "2026-09-27T07:05:43.636521+00:00"
+    },
+    {
+      "commit": "a2b14e3f731dfcb61cfb43912db9116f062700a9",
+      "tag": "v1.9.6",
+      "parsed_at": "2026-04-11T21:38:49.863199+00:00"
+    },
+    {
+      "commit": "1cb78cf9e2168c5741d2bef03d6a9bdf594b190e",
+      "tag": "v1.9.7",
+      "parsed_at": "2026-04-11T21:28:32.659772+00:00"
+    }
+  ]
 }
